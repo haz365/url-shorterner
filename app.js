@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
     }
     .container { max-width: 600px; width: 100%; }
     h1 { font-size: 2rem; margin-bottom: 0.5rem; }
-    h1 span { color: #00ff88; }
+    h1 span { color: #00aaff; }
     p { color: #666; font-size: 0.85rem; margin-bottom: 2rem; }
     .card {
       background: #111;
@@ -62,10 +62,10 @@ app.get('/', (req, res) => {
       font-size: 0.85rem;
       margin-bottom: 1rem;
     }
-    input:focus { outline: none; border-color: #00ff88; }
+    input:focus { outline: none; border-color: #00aaff; }
     button {
       width: 100%;
-      background: #00ff88;
+      background: #00aaff;
       color: #0a0a0a;
       border: none;
       border-radius: 6px;
@@ -75,17 +75,17 @@ app.get('/', (req, res) => {
       font-weight: bold;
       cursor: pointer;
     }
-    button:hover { background: #00cc6a; }
+    button:hover { background: #0088cc; }
     .result {
       background: #0a0a0a;
-      border: 1px solid #00ff88;
+      border: 1px solid #00aaff;
       border-radius: 6px;
       padding: 1rem;
       margin-top: 1rem;
       display: none;
     }
     .result p { color: #666; font-size: 0.75rem; margin-bottom: 0.5rem; }
-    .result a { color: #00ff88; font-size: 1rem; word-break: break-all; }
+    .result a { color: #00aaff; font-size: 1rem; word-break: break-all; }
     .error {
       color: #ff4444;
       font-size: 0.75rem;
@@ -102,7 +102,7 @@ app.get('/', (req, res) => {
       margin-bottom: 0.5rem;
       font-size: 0.75rem;
     }
-    .history-item .short { color: #00ff88; }
+    .history-item .short { color: #00aaff; }
     .history-item .original { color: #666; margin-top: 0.25rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     footer { text-align: center; color: #444; font-size: 0.75rem; margin-top: 2rem; }
   </style>
